@@ -111,7 +111,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="明示常量define.c" />
+    <ClCompile Include="define.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="main1.c" />
+    <ClCompile Include="main2.cpp" />
+    <ClCompile Include="井.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fun.h" />
+    <ClInclude Include="Link.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="注释块.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
