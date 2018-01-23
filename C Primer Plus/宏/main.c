@@ -2,6 +2,6 @@
 #include "Link.h"
 #include "fun.h"
 int main() {
-	//main1();
+	main1();
 	return 0;
 }
