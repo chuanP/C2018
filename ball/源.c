@@ -17,7 +17,17 @@ int main()
 	int x=5, y=1;
 	int velocity_x = 1;
 	int velocity_y=1;
+	int trans;
 	while (1) {
+		/*
+		**方框移动,大小更改
+		**TODO：让画面在更改的同时输入结果？？！怎么做
+		*/
+		switch () {
+
+		}
+
+
 		system("cls");
 		x += velocity_x;
 		y += velocity_y;

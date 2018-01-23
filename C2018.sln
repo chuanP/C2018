@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2020
+VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "结构体", "C Primer Plus\结构体\结构体.vcxproj", "{04C28043-32B5-4738-ADED-E6E3BE27C5BA}"
 EndProject
@@ -12,10 +12,15 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testing", "testing\testing.vcxproj", "{B7EAFF2B-23DD-4698-9D2E-3AC8D2A27F20}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C Game", "C Game", "{251434A3-8261-4844-BB4A-CF0A46DAB671}"
+	ProjectSection(SolutionItems) = preProject
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ball", "ball\ball.vcxproj", "{B86F91CB-189A-4D31-9BDA-5AC2D4880EA4}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "aircraft", "aircraft\aircraft.vcxproj", "{F4F44DE2-F273-464D-86F7-9B3D4DE225AF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "飞机V2.0", "C Game\飞机V2.0\飞机V2.0.vcxproj", "{555B8BD6-B0EE-4986-AE63-971E69A77C63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +70,14 @@ Global
 		{F4F44DE2-F273-464D-86F7-9B3D4DE225AF}.Release|x64.Build.0 = Release|x64
 		{F4F44DE2-F273-464D-86F7-9B3D4DE225AF}.Release|x86.ActiveCfg = Release|Win32
 		{F4F44DE2-F273-464D-86F7-9B3D4DE225AF}.Release|x86.Build.0 = Release|Win32
+		{555B8BD6-B0EE-4986-AE63-971E69A77C63}.Debug|x64.ActiveCfg = Debug|x64
+		{555B8BD6-B0EE-4986-AE63-971E69A77C63}.Debug|x64.Build.0 = Debug|x64
+		{555B8BD6-B0EE-4986-AE63-971E69A77C63}.Debug|x86.ActiveCfg = Debug|Win32
+		{555B8BD6-B0EE-4986-AE63-971E69A77C63}.Debug|x86.Build.0 = Debug|Win32
+		{555B8BD6-B0EE-4986-AE63-971E69A77C63}.Release|x64.ActiveCfg = Release|x64
+		{555B8BD6-B0EE-4986-AE63-971E69A77C63}.Release|x64.Build.0 = Release|x64
+		{555B8BD6-B0EE-4986-AE63-971E69A77C63}.Release|x86.ActiveCfg = Release|Win32
+		{555B8BD6-B0EE-4986-AE63-971E69A77C63}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,6 +88,7 @@ Global
 		{B7EAFF2B-23DD-4698-9D2E-3AC8D2A27F20} = {9350DEA6-4C02-4BC7-992A-E2B9EBC306E8}
 		{B86F91CB-189A-4D31-9BDA-5AC2D4880EA4} = {251434A3-8261-4844-BB4A-CF0A46DAB671}
 		{F4F44DE2-F273-464D-86F7-9B3D4DE225AF} = {251434A3-8261-4844-BB4A-CF0A46DAB671}
+		{555B8BD6-B0EE-4986-AE63-971E69A77C63} = {251434A3-8261-4844-BB4A-CF0A46DAB671}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2D2BF3EE-3BD5-429B-B796-4DB2E23EE149}
