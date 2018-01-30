@@ -34,7 +34,7 @@ void startUp() {
 	position_y = high / 2;
 	enemy_x = rand() % (width - 10) + 5;
 	enemy_y = 0;
-	score = 0;
+	score = 666;
 }
 
 void updateWithInput() {
