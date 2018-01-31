@@ -74,14 +74,14 @@ void printText(char * text, int size)
 	printf(format,text);
 }
 
-void fillText(int x, int y, int lenght, int width, int letter, int color)
+void fillText(int x, int y, int height, int width, int letter, int color)
 {
 	int i;
 	setWinHandle();
 	DWORD relence;
 	for (i = 0; i < width;i++) {
 		COORD coord = {x,y++};
-		FillConsoleOutputAttribute(std_win_handle, color, lenght, coord, &relence);
+		FillConsoleOutputAttribute(std_win_handle, color, height, coord, &relence);
 	}
 }
 

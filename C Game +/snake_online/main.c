@@ -1,16 +1,10 @@
-#include<stdio.h>
-#include <conio.h>
-#include "common\WinApiHelper.h"
+#include"common\WinApiHelper.h"
+#include"view\ControlPanel.h"
 int main()
 {
 	setTitle("Ì°³ÔÉß£¨¼ÙµÄ£©");
 	setWinSize(60,27);
-	char ch=0;
-	for (;ch!='q';) {
-		ch = readChar();
-		if (ch !=0) 
-			printf("%c",ch);
-	}
+	drawControlPanel();
 	getchar();
 
 	return 0;

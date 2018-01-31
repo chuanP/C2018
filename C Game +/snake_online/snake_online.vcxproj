@@ -117,9 +117,13 @@
   <ItemGroup>
     <ClCompile Include="common\WinApiHelper.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="view\ControlPanel.c" />
+    <ClCompile Include="view\panel.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common\WinApiHelper.h" />
+    <ClInclude Include="view\ControlPanel.h" />
+    <ClInclude Include="view\panel.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

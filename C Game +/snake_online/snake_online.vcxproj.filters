@@ -19,10 +19,22 @@
     <ClCompile Include="common\WinApiHelper.c">
       <Filter>common</Filter>
     </ClCompile>
+    <ClCompile Include="view\panel.c">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="view\ControlPanel.c">
+      <Filter>view</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common\WinApiHelper.h">
       <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="view\panel.h">
+      <Filter>view</Filter>
+    </ClInclude>
+    <ClInclude Include="view\ControlPanel.h">
+      <Filter>view</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

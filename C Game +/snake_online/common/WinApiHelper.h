@@ -47,7 +47,7 @@ void printText(char *text,int size);
 /*
 填充函数
 */
-void fillText(int x,int y ,int lenght,int width,int letter,int color);
+void fillText(int x,int y ,int height,int width,int letter,int color);
 
 /*
 接受键盘的输入
